@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50186582FA172D900398250 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEEC172F9AF51E007561FC /* LoginViewController.swift */; };
+		B50186592FA172DE00398250 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEEC182F9AF527007561FC /* RegisterViewController.swift */; };
+		B501865A2FA172E100398250 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEEC192F9AF533007561FC /* MainViewController.swift */; };
+		B501865B2FA172E500398250 /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEEC142F9AF4F1007561FC /* Validators.swift */; };
+		B501865D2FA172F000398250 /* SavingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEEC202F9AF661007561FC /* SavingPlan.swift */; };
+		B501865E2FA172F400398250 /* MonthlyFinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEEC1F2F9AF654007561FC /* MonthlyFinance.swift */; };
+		B501865F2FA172FF00398250 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEEC1D2F9AF645007561FC /* Transaction.swift */; };
+		B50186602FA1730400398250 /* TransactionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEEC1C2F9AF60A007561FC /* TransactionTableView.swift */; };
+		B50186692FA1760500398250 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEEC132F9AF4E7007561FC /* User.swift */; };
+		B501866B2FA1770800398250 /* UsuarioRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501866A2FA176A300398250 /* UsuarioRepository.swift */; };
+		B53148AD2FA2CF63003D4EB2 /* QullqiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B53148A82FA2CF63003D4EB2 /* QullqiApp.xcdatamodeld */; };
+		B53148CC2FA2D4B3003D4EB2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53148CB2FA2D4A3003D4EB2 /* CoreDataManager.swift */; };
+		B58902A72FA18A64009E3F4A /* TransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58902A62FA18A5F009E3F4A /* TransactionRepository.swift */; };
+		B58902A92FA191DF009E3F4A /* HistorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58902A82FA191D9009E3F4A /* HistorialViewController.swift */; };
+		B58902AB2FA191E7009E3F4A /* DatosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58902AA2FA191E2009E3F4A /* DatosViewController.swift */; };
+		B58902AD2FA19207009E3F4A /* MovimientoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58902AC2FA191ED009E3F4A /* MovimientoViewController.swift */; };
+		B5AEEC1A2F9AF569007561FC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AEEC162F9AF514007561FC /* SplashViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B501866A2FA176A300398250 /* UsuarioRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioRepository.swift; sourceTree = "<group>"; };
+		B53148AB2FA2CF63003D4EB2 /* QullqiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QullqiApp.xcdatamodel; sourceTree = "<group>"; };
+		B53148CB2FA2D4A3003D4EB2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B58902A62FA18A5F009E3F4A /* TransactionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepository.swift; sourceTree = "<group>"; };
+		B58902A82FA191D9009E3F4A /* HistorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialViewController.swift; sourceTree = "<group>"; };
+		B58902AA2FA191E2009E3F4A /* DatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosViewController.swift; sourceTree = "<group>"; };
+		B58902AC2FA191ED009E3F4A /* MovimientoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovimientoViewController.swift; sourceTree = "<group>"; };
+		B5AEEBEA2F9AF429007561FC /* QullqiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QullqiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AEEC132F9AF4E7007561FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B5AEEC142F9AF4F1007561FC /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		B5AEEC162F9AF514007561FC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		B5AEEC172F9AF51E007561FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B5AEEC182F9AF527007561FC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B5AEEC192F9AF533007561FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B5AEEC1C2F9AF60A007561FC /* TransactionTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableView.swift; sourceTree = "<group>"; };
+		B5AEEC1D2F9AF645007561FC /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		B5AEEC1F2F9AF654007561FC /* MonthlyFinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyFinance.swift; sourceTree = "<group>"; };
+		B5AEEC202F9AF661007561FC /* SavingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingPlan.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B5AEEBFF2F9AF429007561FC /* Exceptions for "QullqiApp" folder in "QullqiApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B5AEEBE92F9AF429007561FC /* QullqiApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B5AEEBEC2F9AF429007561FC /* QullqiApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B5AEEBFF2F9AF429007561FC /* Exceptions for "QullqiApp" folder in "QullqiApp" target */,
+			);
+			path = QullqiApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5AEEBE72F9AF429007561FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53148CA2FA2D49A003D4EB2 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				B53148CB2FA2D4A3003D4EB2 /* CoreDataManager.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		B5AEEBE12F9AF429007561FC = {
+			isa = PBXGroup;
+			children = (
+				B53148CA2FA2D49A003D4EB2 /* Persistence */,
+				B5AEEC0A2F9AF4B9007561FC /* Repositories */,
+				B5AEEC082F9AF4AA007561FC /* Helpers */,
+				B5AEEC072F9AF49F007561FC /* ViewControllers */,
+				B5AEEC062F9AF498007561FC /* Views */,
+				B5AEEC052F9AF491007561FC /* Models */,
+				B5AEEBEC2F9AF429007561FC /* QullqiApp */,
+				B5AEEBEB2F9AF429007561FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5AEEBEB2F9AF429007561FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5AEEBEA2F9AF429007561FC /* QullqiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5AEEC052F9AF491007561FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5AEEC202F9AF661007561FC /* SavingPlan.swift */,
+				B5AEEC1F2F9AF654007561FC /* MonthlyFinance.swift */,
+				B5AEEC1D2F9AF645007561FC /* Transaction.swift */,
+				B5AEEC132F9AF4E7007561FC /* User.swift */,
+				B53148A82FA2CF63003D4EB2 /* QullqiApp.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5AEEC062F9AF498007561FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5AEEC1C2F9AF60A007561FC /* TransactionTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5AEEC072F9AF49F007561FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B58902AC2FA191ED009E3F4A /* MovimientoViewController.swift */,
+				B58902AA2FA191E2009E3F4A /* DatosViewController.swift */,
+				B58902A82FA191D9009E3F4A /* HistorialViewController.swift */,
+				B5AEEC192F9AF533007561FC /* MainViewController.swift */,
+				B5AEEC182F9AF527007561FC /* RegisterViewController.swift */,
+				B5AEEC172F9AF51E007561FC /* LoginViewController.swift */,
+				B5AEEC162F9AF514007561FC /* SplashViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B5AEEC082F9AF4AA007561FC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B5AEEC142F9AF4F1007561FC /* Validators.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B5AEEC0A2F9AF4B9007561FC /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B58902A62FA18A5F009E3F4A /* TransactionRepository.swift */,
+				B501866A2FA176A300398250 /* UsuarioRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5AEEBE92F9AF429007561FC /* QullqiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AEEC002F9AF429007561FC /* Build configuration list for PBXNativeTarget "QullqiApp" */;
+			buildPhases = (
+				B5AEEBE62F9AF429007561FC /* Sources */,
+				B5AEEBE72F9AF429007561FC /* Frameworks */,
+				B5AEEBE82F9AF429007561FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B5AEEBEC2F9AF429007561FC /* QullqiApp */,
+			);
+			name = QullqiApp;
+			packageProductDependencies = (
+			);
+			productName = QullqiApp;
+			productReference = B5AEEBEA2F9AF429007561FC /* QullqiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5AEEBE22F9AF429007561FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					B5AEEBE92F9AF429007561FC = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = B5AEEBE52F9AF429007561FC /* Build configuration list for PBXProject "QullqiApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5AEEBE12F9AF429007561FC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B5AEEBEB2F9AF429007561FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5AEEBE92F9AF429007561FC /* QullqiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5AEEBE82F9AF429007561FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5AEEBE62F9AF429007561FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58902AB2FA191E7009E3F4A /* DatosViewController.swift in Sources */,
+				B501865A2FA172E100398250 /* MainViewController.swift in Sources */,
+				B501865F2FA172FF00398250 /* Transaction.swift in Sources */,
+				B53148CC2FA2D4B3003D4EB2 /* CoreDataManager.swift in Sources */,
+				B58902AD2FA19207009E3F4A /* MovimientoViewController.swift in Sources */,
+				B501865D2FA172F000398250 /* SavingPlan.swift in Sources */,
+				B58902A92FA191DF009E3F4A /* HistorialViewController.swift in Sources */,
+				B53148AD2FA2CF63003D4EB2 /* QullqiApp.xcdatamodeld in Sources */,
+				B501866B2FA1770800398250 /* UsuarioRepository.swift in Sources */,
+				B50186692FA1760500398250 /* User.swift in Sources */,
+				B501865E2FA172F400398250 /* MonthlyFinance.swift in Sources */,
+				B501865B2FA172E500398250 /* Validators.swift in Sources */,
+				B50186602FA1730400398250 /* TransactionTableView.swift in Sources */,
+				B50186592FA172DE00398250 /* RegisterViewController.swift in Sources */,
+				B50186582FA172D900398250 /* LoginViewController.swift in Sources */,
+				B5AEEC1A2F9AF569007561FC /* SplashViewController.swift in Sources */,
+				B58902A72FA18A64009E3F4A /* TransactionRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5AEEC012F9AF429007561FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QullqiApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QullqiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5AEEC022F9AF429007561FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QullqiApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.QullqiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5AEEC032F9AF429007561FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5AEEC042F9AF429007561FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5AEEBE52F9AF429007561FC /* Build configuration list for PBXProject "QullqiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AEEC032F9AF429007561FC /* Debug */,
+				B5AEEC042F9AF429007561FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5AEEC002F9AF429007561FC /* Build configuration list for PBXNativeTarget "QullqiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AEEC012F9AF429007561FC /* Debug */,
+				B5AEEC022F9AF429007561FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B53148A82FA2CF63003D4EB2 /* QullqiApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B53148AB2FA2CF63003D4EB2 /* QullqiApp.xcdatamodel */,
+			);
+			currentVersion = B53148AB2FA2CF63003D4EB2 /* QullqiApp.xcdatamodel */;
+			path = QullqiApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5AEEBE22F9AF429007561FC /* Project object */;
+}
